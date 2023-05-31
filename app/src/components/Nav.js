@@ -7,7 +7,8 @@ function Nav() {
 
       <div className="px-4 flex gap-10 text-xl">
         <NavLink style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })} to="/">About Me</NavLink>
-        <NavLink style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })} to="resume">Skills</NavLink>
+        <NavLink style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })} to="/education">Education</NavLink>
+        <NavLink style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })} to="/skills">Skills</NavLink>
         <NavLink style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })} to="/projects">Projects</NavLink>
       </div>
     </nav>

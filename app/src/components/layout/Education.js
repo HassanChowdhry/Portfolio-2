@@ -1,7 +1,7 @@
-function Resume() {
+function Education() {
   return (
     <div className="text-center text-white my-10">
-      <h1>Education / Skills</h1>
+      <h1 className="text-3xl">Education</h1>
 
       {/* div to add stuff */}
       <div className="flex justify-center m-auto w-1/2 bg-gray">
@@ -27,4 +27,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default Education;
