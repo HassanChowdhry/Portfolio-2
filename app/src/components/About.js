@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="flex w-6/12 m-auto bg-gray text-white my-10 p-8">
       <section className="flex-col w-6/12 text-center p-">
-        <img src={pic} alt="hassan-pic" className="w-2/5 rounded-full m-auto" />
+        <img src={pic} alt="hassan-pic" className="w-2/5 rounded-2xl m-auto" />
 
         <h2 className="pb-6 text-3xl">Hassan Chowdhry</h2>
         <h3 className="pb-3 text-xl">Software Developer</h3>
