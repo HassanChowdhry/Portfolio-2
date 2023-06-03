@@ -1,7 +1,7 @@
 function Project() {
   return (
-    <div className="flex justify-center m-auto w-1/2 bg-gray">
-      <section className="p-16 w-2/3">
+    <div className="flex flex-col justify-center w-2/3 m-auto bg-gray">
+      <section className="p-14">
         <h2 className="mb-10 text-2xl font-bold">Google Links</h2>
         <p className="overflow-y-clip">
           Programmed an open-source web application that improved productivity for researchers.
@@ -10,8 +10,8 @@ function Project() {
         </p>
       </section>
 
-      <section className="w-1/3">
-        <img alt="preview" />
+      <section className="">
+        <iframe className="w-full" style={{ aspectRatio: '15/5' }} src="https://d17o0fjvg61p4q.cloudfront.net/gallery" title="tweet-gen" />
       </section>
     </div>
   );

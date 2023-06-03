@@ -4,22 +4,15 @@ function Education() {
       <h1 className="text-3xl">Education</h1>
 
       {/* div to add stuff */}
-      <div className="flex justify-center m-auto w-1/2 bg-gray">
-        <section className="w-1/3 my-auto">
-          <p>2022</p>
-          <p>Uni</p>
-          <p>BCS</p>
-          <p>Loc</p>
-        </section>
-
-        <section className="p-16 w-2/3">
-          <p className="overflow-y-clip">
-            {/* courses taking or taken */}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Mollitia sunt veniam est veritatis eum qui nisi ducimus velit ad r
-            eiciendis non consectetur neque, voluptates officiis? Adipisci nesciunt del
-            ectus libero est.
+      <div className="m-auto w-1/2 bg-gray">
+        <section className="p-6 text-left">
+          <div className="p-0.5 flex justify-between"><span className="text-xl"> Bachelors of Computer Science,</span> <strong>2022-2026</strong></div>
+          <small className="p-0.5">CGPA: 4.21/4.3</small>
+          <p className="p-0.5"><strong>Relevant Courses: </strong>
+            Intro to Computer Science, Web Development, Calculus in
+            Computer Science, Data Science, Robotics, Computer Systems, Discrete Math.
           </p>
+          <small className="underline italic hover:text-blue p-0.5">Dalhousie University, Halfifax, Canada</small>
         </section>
 
       </div>
