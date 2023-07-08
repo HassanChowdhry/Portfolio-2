@@ -1,13 +1,15 @@
-function Skill() {
+function Skill({ title, skills }) {
   return (
-    <div className="m-auto w-1/2 bg-gray">
+    <div className="m-auto rounded mb-12 p-4 w-2/3 bg-gray">
       <section>
-        <h2 className="section-title">Programming</h2>
-        <div className="grid grid-cols-4">
-          <article>JavaScript</article>
-          <article>Java</article>
-          <article>Python</article>
-          <article>JSX</article>
+        <h2 className="section-title">{title}</h2>
+        <div className="grid grid-cols-5">
+          {skills.map(({ skill, image }) => (
+            <article className="p-8 hover:opacity-50">
+              <h5>{skill}</h5>
+              <img src={image} alt="" />
+            </article>
+          ))}
         </div>
       </section>
     </div>

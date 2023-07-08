@@ -7,7 +7,7 @@ import Skills from './components/layout/Skills';
 
 function App() {
   return (
-    <div className="bg-black h-screen">
+    <div>
       <Nav />
       <Routes>
         <Route path="/" element={<About />} />

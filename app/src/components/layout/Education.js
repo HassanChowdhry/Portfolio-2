@@ -6,7 +6,7 @@ function Education() {
       {/* div to add stuff */}
       <div className="m-auto w-1/2 bg-gray">
         <section className="p-6 text-left">
-          <div className="p-0.5 flex justify-between"><span className="text-xl"> Bachelors of Computer Science,</span> <strong>2022-2026</strong></div>
+          <div className="p-0.5 flex justify-between"><span className="text-xl"> Bachelors of Computer Science,</span> <strong>2022-2026 (expected)</strong></div>
           <small className="p-0.5">CGPA: 4.21/4.3</small>
           <p className="p-0.5"><strong>Relevant Courses: </strong>
             Intro to Computer Science, Web Development, Calculus in
