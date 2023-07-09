@@ -23,6 +23,8 @@
         "comma-dangle":"off",
         "object-curly-newline":"off",
         "no-undef":"off",
-        "import/no-unresolved": "off"
+        "import/no-unresolved": "off",
+        "max-len": "off",
+        "react/prop-types": "off"
     }
 }
