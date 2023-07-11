@@ -3,7 +3,7 @@ import projects from '../../personal-info/projects.json';
 
 function Projects() {
   return (
-    <div className="text-center text-white my-10">
+    <div className="text-center text-white my-10 rounded">
       <h1 className="text-3xl">Projects</h1>
 
       {projects.map(({ title, src, description, stack, id }) => (

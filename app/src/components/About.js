@@ -20,7 +20,7 @@ function About() {
       <section className="w-9/12 leading-8">
         <h1 className="section-title text-center p-0">About Me</h1>
         <p>
-          My name is Hassan Chowdhry, and I am a software developer and 1st year student
+          My name is Hassan Chowdhry, and I am a software developer and 2nd year student
           Computer Science student at Dalhousie University. I&apos;ve worked on a variety of
           projects ranging from vanilla FE to React. In addition, I participate in open
           source projects.

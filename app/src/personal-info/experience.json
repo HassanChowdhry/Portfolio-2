@@ -1,0 +1,25 @@
+[
+  {
+    "company":"Freelancer - Upwork",
+    "title":"Full-Stack Developer",
+    "location":"Remote, Canada",
+    "time":"May 2023 - Present",
+    "stack":"Python, JavaScript, Django, React, Cypress, Jest, Docker, AWS, JSX, CSS/CSS3, HTML/HTML5, PostgreSQL",
+    "description":[
+      "Contributed to the successful migration and rewrite of an existing web application from AngularJS to React, significantly improving UI/UX, code maintainability, performance, and test coverage.",
+      "Developed and maintained RESTful and WebSocket APIs using Python and Django, hosting the containerized application on cloud infrastructure (AWS) for enhanced scalability and reliability.",
+      "Integrated comprehensive API and UI end-to-end tests using Cypress and Supertest, ensuring the reliability and functionality of the application."
+    ]
+  },
+  {
+    "company":"Freelancer - Upwork",
+    "title":"Full-Stack Developer",
+    "location":"Remote, Canada",
+    "time":"July 2023 - Present",
+    "stack":"React, TypeScript, TSX, MaterialUI, TailwindCSS, HTML/HTML5, CSS/CSS3, Figma, Firebase",
+    "description":[
+      "Utilized Figma to design and create mockups for a website, translating the envisioned user experience into an intuitive and visually appealing interface.",
+      "Developed a responsive website using React, TypeScript, MaterialUI, and TailwindCSS, resulting in a seamless user experience with consistent styling across various devices and screen sizes."
+    ]
+  }
+]

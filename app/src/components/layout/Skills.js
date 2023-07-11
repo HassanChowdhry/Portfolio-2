@@ -3,7 +3,7 @@ import data from '../../personal-info/skills.json';
 
 function Skills() {
   return (
-    <div className="text-center text-white my-10">
+    <div className="text-center text-white my-10 rounded">
       <h1 className="text-3xl">Skills</h1>
 
       {data.map(({ title, skills }) => (
