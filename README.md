@@ -9,3 +9,4 @@
 - TailwindCSS
 - HTML
 - CSS
+- Firebase
