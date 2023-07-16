@@ -10,6 +10,9 @@ module.exports = {
         gray: '#393E46',
         blue: '#00ADB5',
         black: '#222831'
+      },
+      transitionDelay: {
+        75: '75ms'
       }
     }
   },
