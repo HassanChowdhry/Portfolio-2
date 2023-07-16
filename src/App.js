@@ -11,8 +11,8 @@ function App() {
     <div>
       <Nav />
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/Experience" element={<Experience />} />
+        <Route exact path="/" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />

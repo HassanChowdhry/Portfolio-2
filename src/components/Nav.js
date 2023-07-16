@@ -7,6 +7,7 @@ function Nav() {
 
       <div className="px-4 flex gap-10 text-xl">
         <NavLink
+          exact
           className={({ isActive }) => (isActive ? 'transform transition duration-300 scale-125' : 'transform transition duration-300 scale-100 text-gray-500')}
           style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })}
           to="/"
@@ -15,7 +16,7 @@ function Nav() {
         <NavLink
           className={({ isActive }) => (isActive ? 'transform transition duration-300 scale-125' : 'transform transition duration-300 scale-100 text-gray-500')}
           style={({ isActive }) => (isActive ? { color: '#00ADB5' } : { color: '#EEEEEE' })}
-          to="/Experience"
+          to="/experience"
         >Experience
         </NavLink>
         <NavLink
