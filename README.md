@@ -2,4 +2,10 @@
 
 ## [Click here for live demo](https://portfolio-729d5.web.app/)
 
-### Test
+### Built with
+
+- React
+- Javascript
+- TailwindCSS
+- HTML
+- CSS
