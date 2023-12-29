@@ -1,10 +1,11 @@
+import { forwardRef } from 'react';
 import university from '../../personal-info/university.json';
 
-function Education() {
+const Education = forwardRef(({ id }, ref) => {
   const { title, length, CGPA, courses, location } = university;
   return (
-    <div className="text-center text-white my-10 leading-8">
-      <h1 className="text-3xl">Education</h1>
+    <div ref={ref} id={id} className="border-2 border-orange-900 w-full h-screen leading-8">
+      <h1 className="section-title text-3xl">Education</h1>
 
       {/* div to add stuff */}
       <div className="m-auto w-1/2 bg-gray">
@@ -20,6 +21,6 @@ function Education() {
       </div>
     </div>
   );
-}
+});
 
 export default Education;

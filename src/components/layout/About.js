@@ -1,24 +1,15 @@
-import pic from '../pics/hassan-pic.png';
-import LinkedInButton from './UI/LinkedInButton';
-import GitButton from './UI/GitButton';
+import { forwardRef } from 'react';
 
-function About() {
-  return (
-    <div className="flex w-7/12 m-auto bg-gray text-white my-12 p-8 rounded">
+const About = forwardRef(({ id }, ref) => (
+  <div ref={ref} id={id} className="border-2 border-blue h-screen">
+    <div className="flex w-7/12 m-auto bg-gray my-12 p-8 rounded">
       <section className="flex-col w-6/12 text-center">
-        <img src={pic} alt="hassan-pic" className="w-2/5 rounded-2xl m-auto" />
-
         <h2 className="p-2 text-3xl">Hassan Chowdhry</h2>
         <h3 className="p-1 text-xl">Software Developer</h3>
-        <nav className="flex gap-4 justify-center">
-          <GitButton />
-
-          <LinkedInButton />
-        </nav>
       </section>
 
       <section className="w-9/12 leading-8">
-        <h1 className="section-title text-center p-0">About Me</h1>
+        <h1 className="section-title p-0">About Me</h1>
         <p>
           My name is Hassan Chowdhry, and I am a software developer and 2nd year student
           Computer Science student at Dalhousie University. I&apos;ve worked on a variety of
@@ -28,7 +19,7 @@ function About() {
         </p>
       </section>
     </div>
-  );
-}
+  </div>
+));
 
 export default About;

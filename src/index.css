@@ -4,9 +4,12 @@
 
 body {
   background-color: #222831;
+  text-align: center;
+  color: #EEEEEE;
 }
 
 .section-title {
+  color: gray;
   font-size: 1.5rem/* 24px */;
   line-height: 2rem;
   margin-bottom: 2.5rem;
