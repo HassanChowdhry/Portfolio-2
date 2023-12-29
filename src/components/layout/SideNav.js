@@ -13,7 +13,7 @@ export default function SideNav() {
         <h1 className="p-4 text-3xl">Hassan Chowdhry</h1>
       </header>
 
-      <nav className="grid gap-5 w-full text-xl justify-items-center">
+      <nav className="grid gap-3 w-full text-xl justify-items-center">
         <Links to="/about">About Me</Links>
         <Links to="/experience">Experience</Links>
         <Links to="/projects">Projects</Links>

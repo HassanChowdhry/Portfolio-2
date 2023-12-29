@@ -15,14 +15,16 @@ export default function Links({ to, children }) {
   return (
     <NavLink
       className={({ isActive }) => (
-        `text-center w-full transform transition duration-300 
-          ${isActive ? 'scale-125 text-blue' : 'scale-100 text-white'}`
+        `bg-gray hover:text-white w-10/12 hover:scale-110 transition
+         hover:bg-blue/50 rounded-lg transform duration-300 flex
+          ${isActive ? 'scale-105 text-blue ring-blue/50 ring-4 outline-none'
+          : 'scale-100 text-white'}`
       )}
       to={to}
       onClick={scrollToSection}
       isActive={isActiveLocation}
     >
-      {children}
+      <p className="w-auto self-center mx-auto p-2">{children}</p>
     </NavLink>
   );
 }
