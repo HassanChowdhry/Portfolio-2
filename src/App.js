@@ -8,7 +8,6 @@ import Education from './components/layout/Education';
 import Skills from './components/layout/Skills';
 import Experience from './components/layout/Experience';
 
-// Custom hook for handling intersection observer logic
 const useIntersectionObserver = () => {
   const navigate = useNavigate();
   const sectionRefs = {
@@ -40,6 +39,7 @@ const useIntersectionObserver = () => {
 
 function App() {
   const { about, experience, projects, education, skills } = useIntersectionObserver();
+  const commonStyles = 'm-auto w-5/6 p-14';
 
   return (
     <main className="w-screen grid grid-cols-6">
@@ -47,11 +47,11 @@ function App() {
         <SideNav />
       </div>
       <div className="col-span-5">
-        <About id="about" ref={about.inViewRef} />
-        <Experience id="experience" ref={experience.inViewRef} />
-        <Project id="projects" ref={projects.inViewRef} />
-        <Education id="education" ref={education.inViewRef} />
-        <Skills id="skills" ref={skills.inViewRef} />
+        <About id="about" className={commonStyles} ref={about.inViewRef} />
+        <Experience id="experience" className={commonStyles} ref={experience.inViewRef} />
+        <Project id="projects" className={commonStyles} ref={projects.inViewRef} />
+        <Education id="education" className={commonStyles} ref={education.inViewRef} />
+        <Skills id="skills" className={commonStyles} ref={skills.inViewRef} />
       </div>
     </main>
   );

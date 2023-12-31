@@ -20,7 +20,11 @@
       },
       {
         "skill": "C",
-        "image": "https://img.icons8.com/?size=512&id=55494&format=png"
+        "image": "https://cdn.iconscout.com/icon/free/png-512/free-c-57-1175191.png?f=webp&w=512"
+      },
+      {
+        "skill": "SQL",
+        "image": "https://cdn.discordapp.com/attachments/1127042076538830918/1190933003417956402/database.png?ex=65a399ca&is=659124ca&hm=0ab631ca0d7a150f01cc7b516885dc409785815a95353689b22fd07357882068&"
       },
       {
         "skill": "HTML / HTML5",
@@ -56,6 +60,10 @@
         "image": "https://img.icons8.com/?size=512&id=bp24DwGXJDyT&format=png"
       },
       {
+        "skill": "JUnit",
+        "image": "https://cdn.discordapp.com/attachments/1127042076538830918/1190933003648639007/JUnit.png?ex=65a399ca&is=659124ca&hm=2224c65fe9bbe98dfe9b0ba60f0d32cb2c2ce3274b0687c036ea3fb0c1b1fb0e&"
+      },
+      {
         "skill": "Cypress",
         "image": "https://cdn.discordapp.com/attachments/1127042076538830918/1127083620142690355/cypress.1024x1022.png"
       },
@@ -70,10 +78,6 @@
       {
         "skill": "jQuery",
         "image": "https://cdn.iconscout.com/icon/free/png-512/free-jquery-10-1175155.png?f=avif&w=256"
-      },
-      {
-        "skill": "JUnit",
-        "image": "https://img.icons8.com/?size=512&id=84710&format=png"
       }
     ]
   },

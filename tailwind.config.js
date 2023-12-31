@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         white: '#EEEEEE',
         gray: '#393E46',
-        blue: '#00ADB5',
+        blue: 'rgba(0, 173, 181, 0.6)',
         black: '#222831'
       },
       transitionDelay: {

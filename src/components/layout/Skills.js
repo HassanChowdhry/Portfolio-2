@@ -2,12 +2,12 @@ import { forwardRef } from 'react';
 import Skill from './mini-comp/Skill';
 import data from '../../personal-info/skills.json';
 
-const Skills = forwardRef(({ id }, ref) => (
-  <div ref={ref} id={id} className="border-2 border-green-900 rounded">
-    <h1 className="section-title text-3xl">Skills</h1>
+const Skills = forwardRef(({ id, className }, ref) => (
+  <div ref={ref} id={id}>
+    <h1 className="section-title">Skills</h1>
 
     {data.map(({ title, skills }) => (
-      <Skill title={title} skills={skills} />
+      <Skill className={className} title={title} skills={skills} />
     ))}
   </div>
 ));

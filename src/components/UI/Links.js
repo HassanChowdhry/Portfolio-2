@@ -16,8 +16,8 @@ export default function Links({ to, children }) {
     <NavLink
       className={({ isActive }) => (
         `bg-gray hover:text-white w-10/12 hover:scale-110 transition
-         hover:bg-blue/50 rounded-lg transform duration-300 flex
-          ${isActive ? 'scale-105 text-blue ring-blue/50 ring-4 outline-none'
+         hover:bg-blue rounded-lg transform duration-300 flex
+          ${isActive ? 'scale-105 text-blue ring-blue ring-4 outline-none'
           : 'scale-100 text-white'}`
       )}
       to={to}

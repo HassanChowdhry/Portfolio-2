@@ -1,11 +1,13 @@
-function Skill({ title, skills }) {
+function Skill({ title, skills, className }) {
   return (
-    <div className="m-auto rounded mb-12 p-4 w-2/3 bg-gray">
+    <div className={`${className}`}>
       <section>
-        <h2 className="section-title">{title}</h2>
+        <h2 className="">{title}</h2>
         <div className="grid grid-cols-5">
           {skills.map(({ skill, image }) => (
-            <article className="p-8 rounded hover:cursor-pointer hover:bg-blue transition duration-300">
+            <article className="p-10 m-2 hover:scale-110
+            rounded hover:cursor-pointer hover:bg-blue transition duration-300"
+            >
               <h5>{skill}</h5>
               <img src={image} alt="" />
             </article>

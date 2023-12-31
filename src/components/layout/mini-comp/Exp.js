@@ -1,6 +1,6 @@
-function Exp({ company, title, location, time, stack, description }) {
+function Exp({ company, title, location, time, stack, description, className }) {
   return (
-    <div className="m-auto w-1/2 bg-gray mb-16 rounded">
+    <div className={`${className}`}>
       <section className="p-6 text-left">
         <div className="p-0.5 flex justify-between">
           <strong className="text-xl font-semibold"> {company}</strong>
