@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+white: rgba(255, 255, 255, 0.3)
+gray: #393E46
+blue: rgba(0, 173, 181, 0.5)
+black: #222831
+*/
+
 body {
-  background-color: #222831;
+  background-color: white;
+  text-align: center;
 }
 
 .section-title {

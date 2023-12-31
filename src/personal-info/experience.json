@@ -1,5 +1,16 @@
 [
   {
+    "company":"Dalhousie University",
+    "title":"TA / Marker",
+    "location":"Halifax, Canada",
+    "time":"Sep 2023 - Present",
+    "stack":"Javascript,  HTML/HTML5, CSS/CSS3",
+    "description":[
+      "Effectively facilitated student comprehension of complex web development topics, fostering a supportive learning environment, and resulting in improved academic performance.",
+      "Methodically assess students' assignments and projects, providing comprehensive feedback that elevates code excellence, adherence to industry best practices, and their overall web development expertise, thereby bolstering the maintenance of rigorous educational benchmarks."
+    ]
+  },
+  {
     "company":"Freelancer - Upwork",
     "title":"Full-Stack Developer",
     "location":"Remote, Canada",
