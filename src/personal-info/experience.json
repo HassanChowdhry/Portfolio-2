@@ -2,24 +2,24 @@
   {
     "company":"Dalhousie University",
     "title":"Teaching Assistant (TA)",
-    "location":"Halifax, Canada",
+    "location":"Halifax, Nova Scotia, Canada",
     "time":"Sep 2023 - Present",
-    "stack":"Javascript,  HTML/HTML5, CSS/CSS3",
+    "stack":"Javascript, HTML/HTML5, CSS/CSS3, Figma",
     "description":[
-      "Effectively facilitated student comprehension of complex web development topics, fostering a supportive learning environment, and resulting in improved academic performance.",
-      "Methodically assess students' assignments and projects, providing comprehensive feedback that elevates code excellence, adherence to industry best practices, and their overall web development expertise, thereby bolstering the maintenance of rigorous educational benchmarks."
+      "Developed strong relationships with regular students, facilitating their understanding of web development concepts and contributing to a 25% improvement in their course averages.",
+      "Rigorously evaluated over 100 assignments, delivering detailed feedback that improved code excellence and adherence to industry standards."
     ]
   },
   {
     "company":"Freelancer - Upwork",
     "title":"Full-Stack Developer",
-    "location":"Canada",
+    "location":"Halifax, Nova Scotia, Canada",
     "time":"May 2023 - Present",
-    "stack":"Python, JavaScript, Django, React, Cypress, Jest, Docker, AWS, JSX, CSS/CSS3, HTML/HTML5, PostgreSQL",
+    "stack":"Python, JavaScript, Django, React, AngularJS, Cypress, Docker, AWS, CSS/CSS3, HTML/HTML5, PostgreSQL",
     "description":[
-      "Contributed to the successful migration and rewrite of an existing web application from AngularJS to React, significantly improving UI/UX, code maintainability, performance, and test coverage.",
-      "Developed and maintained RESTful and WebSocket APIs using Python and Django, hosting the containerized application on cloud infrastructure (AWS) for enhanced scalability and reliability.",
-      "Integrated comprehensive API and UI end-to-end tests using Cypress and Supertest, ensuring the reliability and functionality of the application."
+      "Successfully migrated and rewrote a web application, improving UI/UX and code quality. This resulted in a 20% performance improvement.",
+      "Improved test coverage by introducing API and UI end-to-end tests, achieving a 20% reduction in reported issues.",
+      "Optimized existing RESTful and WebSocket services by removing dead code and increasing unit test coverage to 90% (previously at 50%)."
     ]
   }
 ]

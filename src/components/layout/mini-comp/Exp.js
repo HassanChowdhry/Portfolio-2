@@ -3,19 +3,19 @@ function Exp({ company, title, location, time, stack, description, className }) 
     <div className={`${className}`}>
       <section className="text-left">
         <div className="flex justify-between">
-          <span className=""> {company}</span>
-          <span className="">{location}</span>
+          <strong className="text-2xl"> {company}</strong>
+          <em className="">{location}</em>
         </div>
 
         <div className="flex justify-between">
-          <span className="">{title}</span>
-          <span className="">{time}</span>
+          <strong className="text-xl">{title}</strong>
+          <em>{time}</em>
         </div>
 
         <ul className="list-disc list-inside">
           {description.map((line) => (<li>{line}</li>))}
           <li>
-            <span className="font-black">Tech Stack: </span> {stack}
+            <strong>Technologies used:</strong> {stack}
           </li>
         </ul>
 

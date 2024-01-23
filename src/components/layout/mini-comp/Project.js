@@ -9,7 +9,7 @@ function Project({ title, description, stack, className }) {
             {description}
           </li>
           <li>
-            <span>Tech Stack: </span> {stack}
+            <span><strong>Technologies used:</strong> </span> {stack}
           </li>
         </ul>
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Vollkorn&display=swap');@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -12,12 +12,12 @@ black: #222831
 body {
   background-color: white;
   text-align: center;
-  font-family: Vollkorn;
   font-size: 1.25rem;
 }
 
 .section-title {
-  font-size: 2rem/* 24px */;
+  font-size: 2.2rem/* 24px */;
   margin: 2.5rem;
-  font-family: Playfair Display;
+  padding-top: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
