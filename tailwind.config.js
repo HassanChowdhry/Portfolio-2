@@ -13,6 +13,10 @@ module.exports = {
       },
       transitionDelay: {
         75: '75ms'
+      },
+      fontFamily: {
+        primary: ['Playfair Display'],
+        secondary: ['Vollkorn']
       }
     }
   },

@@ -1,7 +1,8 @@
 {
-  "title": "Bachelors of Computer Science - CO-OP",
+  "university": "Dalhousie University",
+  "title": "Bachelors of Computer Science (BCS) - CO-OP",
   "length": "2022-2026 (expected)",
   "CGPA": "4.24/4.3",
   "courses": "Data Structure & Algorithms, Systems Programming, Software Development, Web Development, Database Systems, Data Science, Robotics.",
-  "location" : "Dalhousie University, Halifax, Canada"
+  "location" : "Halifax, Canada"
 }

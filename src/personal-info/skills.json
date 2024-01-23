@@ -68,6 +68,10 @@
         "image": "https://cdn.discordapp.com/attachments/1127042076538830918/1127083620142690355/cypress.1024x1022.png"
       },
       {
+        "skill": "AngularJS",
+        "image": ""
+      },
+      {
         "skill": "MaterialUI",
         "image": "https://img.icons8.com/?size=512&id=gFw7X5Tbl3ss&format=png"
       },
@@ -82,32 +86,7 @@
     ]
   },
   {
-    "title": "Tools",
-    "skills": [
-      {
-        "skill": "Docker",
-        "image": "https://img.icons8.com/?size=512&id=22813&format=png"
-      },
-      {
-        "skill": "Figma",
-        "image": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png"
-      },
-      {
-        "skill": "Git",
-        "image": "https://img.icons8.com/?size=512&id=20906&format=png"
-      },
-      {
-        "skill": "Postman",
-        "image": "https://cdn.iconscout.com/icon/free/png-512/free-postman-3521648-2945092.png?f=avif&w=256"
-      },
-      {
-        "skill": "Github",
-        "image": "https://img.icons8.com/?size=512&id=16318&format=png"
-      }
-    ]
-  },
-  {
-    "title": "Cloud",
+    "title": "DevOps / Cloud",
     "skills": [
       {
         "skill": "Firebase",
@@ -116,6 +95,31 @@
       {
         "skill": "AWS",
         "image": "https://cdn.iconscout.com/icon/free/png-512/free-aws-1869025-1583149.png?f=avif&w=256"
+      },
+      {
+        "skill": "Docker",
+        "image": "https://img.icons8.com/?size=512&id=22813&format=png"
+      }
+    ]
+  },
+  {
+    "title": "Tools",
+    "skills": [
+      {
+        "skill": "Figma",
+        "image": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png"
+      },
+      {
+        "skill": "Postman",
+        "image": "https://cdn.iconscout.com/icon/free/png-512/free-postman-3521648-2945092.png?f=avif&w=256"
+      },
+      {
+        "skill": "Git",
+        "image": "https://img.icons8.com/?size=512&id=20906&format=png"
+      },
+      {
+        "skill": "Github",
+        "image": "https://img.icons8.com/?size=512&id=16318&format=png"
       }
     ]
   },

@@ -1,20 +1,29 @@
 import { forwardRef } from 'react';
-import university from '../../personal-info/university.json';
+import uni from '../../personal-info/university.json';
 
 const Education = forwardRef(({ id, className }, ref) => {
-  const { title, length, CGPA, courses, location } = university;
+  const { university, title, length, CGPA, courses, location } = uni;
   return (
     <div ref={ref} id={id} className="h-screen flex">
       <div className={`${className}`}>
         <h1 className="section-title text-center">Education</h1>
 
         <section className="text-left">
-          <div className="flex justify-between"><span className="text-xl"> {title},</span> <strong>{length}</strong></div>
-          <small>CGPA: {CGPA}</small>
-          <p><strong>Relevant Courses: </strong>
-            {courses}
-          </p>
-          <small className="underline italic hover:text-blue">{location}</small>
+
+          <div className="flex justify-between">
+            <span className="text-3xl font-black">{university}</span>
+            <span>{location}</span>
+          </div>
+
+          <div className="flex justify-between">
+            <span className="text-2xl font-black">{title}</span>
+            <span>{length}</span>
+          </div>
+
+          <ul className="list-disc list-inside">
+            <li> <span className="text-xl font-black">CGPA:</span> {CGPA}</li>
+            <li> <span className="text-xl font-black">Relevant Courses:</span> {courses}</li>
+          </ul>
         </section>
 
       </div>

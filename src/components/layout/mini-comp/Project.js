@@ -3,12 +3,16 @@ function Project({ title, description, stack, className }) {
     <div className="flex">
       <section className={`${className} text-left`}>
         <h2 className="mb-10 text-2xl font-bold">{title}</h2>
-        <p className="mb-5 overflow-y-clip">
-          &bull; {description}
-        </p>
-        <p>
-          &bull; <b>Tech Stack: </b> {stack}
-        </p>
+
+        <ul className="list-disc list-inside">
+          <li className="mb-5 overflow-y-clip">
+            {description}
+          </li>
+          <li>
+            <span>Tech Stack: </span> {stack}
+          </li>
+        </ul>
+
       </section>
 
     </div>

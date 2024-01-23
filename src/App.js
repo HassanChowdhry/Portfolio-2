@@ -48,9 +48,9 @@ function App() {
       </div>
       <div className="col-span-5">
         <About id="about" className={commonStyles} ref={about.inViewRef} />
+        <Education id="education" className={commonStyles} ref={education.inViewRef} />
         <Experience id="experience" className={commonStyles} ref={experience.inViewRef} />
         <Project id="projects" className={commonStyles} ref={projects.inViewRef} />
-        <Education id="education" className={commonStyles} ref={education.inViewRef} />
         <Skills id="skills" className={commonStyles} ref={skills.inViewRef} />
       </div>
     </main>

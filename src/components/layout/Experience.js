@@ -4,7 +4,7 @@ import Exp from './mini-comp/Exp';
 import experience from '../../personal-info/experience.json';
 
 const Experience = forwardRef(({ id, className }, ref) => (
-  <div ref={ref} id={id}>
+  <div ref={ref} id={id} className="h-screen">
     <h1 className="section-title">Experience</h1>
 
     {experience.map((inf) => (

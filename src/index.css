@@ -1,4 +1,4 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Vollkorn&display=swap');@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -12,11 +12,12 @@ black: #222831
 body {
   background-color: white;
   text-align: center;
+  font-family: Vollkorn;
+  font-size: 1.25rem;
 }
 
 .section-title {
-  font-size: 1.5rem/* 24px */;
-  line-height: 2rem;
-  margin-bottom: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem/* 24px */;
+  margin: 2.5rem;
+  font-family: Playfair Display;
 }
