@@ -4,6 +4,7 @@ import data from '../../personal-info/skills.json';
 
 const Skills = forwardRef(({ id, className }, ref) => (
   <div ref={ref} id={id}>
+    <hr />
     <h1 className="section-title">Skills</h1>
 
     {data.map(({ title, skills }) => (
