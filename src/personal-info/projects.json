@@ -2,29 +2,33 @@
   {
     "title": "Google Links",
     "description" : "Designed and created an open-source web application that improved productivity for researchers. The application scrapes google search data and parse it into an excel sheet according to the research requirement.",
-    "stack": "React, JSX, JavaScript, HTML / HTML5, CSS / CSS3, Firebase, Figma, Postman",
+    "stack": "React, JSX, JavaScript, HTML/HTML5, CSS/CSS3, Firebase, Figma, Postman",
     "length": "Feb 2022 - Jul 2022",
+    "url": "https://links-cf02b.web.app/home",
     "id": 1
   },
   {
     "title": "Photo Gallery",
-    "description": "Designed and developed a web application <b>for</b> photography enthusiasts to share their photos. The software displays photographs from a database in a gallery along with the user's profile photo.",
-    "stack": "React, JSX, JavaScript, HTML / HTML5, CSS / CSS3, AWS, Github Pages, Figma, Postman",
+    "description": "Designed and developed a web application for photography enthusiasts to share their photos. The software displays photographs from a database in a gallery along with the user's profile photo.",
+    "stack": "React, JavaScript, Nodejs, ExpressJs, SQL, MySQL, HTML/HTML5, CSS/CSS3, AWS, Figma, Postman",
     "length": "Apr 2022 - May 2022",
+    "url": "https://d17o0fjvg61p4q.cloudfront.net/gallery",
     "id": 2
   },
   {
     "title": "Tweet Generator",
     "description" : "Launched an open-source web application to make customized tweets. The user fills out input forms, which updates and renders the tweet display asynchronously.",
-    "stack": "HTML / HTML5, CSS / CSS3, Bootstrap, Github Pages",
+    "stack": "HTML/HTML5, CSS/CSS3, Bootstrap, Github Pages",
     "length": "Feb 2022 - Mar 2022",
+    "url": "https://hassanchowdhry.github.io/Tweet-Generator/",
     "id": 3
   },
   {
     "title": "Portfolio",
     "description" : "Created a React website to showcase my work and share more details about myself. It contains my experience, skills, projects, and other relevant information.",
-    "stack": "React, JSX, TailwindCSS, Firebase, HTML / HTML5, CSS / CSS3, Figma",
+    "stack": "React, JSX, TailwindCSS, Firebase, HTML/HTML5, CSS/CSS3, Figma",
     "length": "Dec 2021 - Present",
+    "url": "https://portfolio-729d5.web.app/about",
     "id": 4
   }
 ]

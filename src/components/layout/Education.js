@@ -10,18 +10,18 @@ const Education = forwardRef(({ id, className }, ref) => {
 
         <section className="text-left">
 
-          <div className="flex justify-between">
+          <div className="flex justify-between mb-3">
             <strong className="text-2xl">{university}</strong>
             <em>{location}</em>
           </div>
 
-          <div className="flex justify-between">
+          <div className="flex justify-between mb-3">
             <strong className="text-xl">{title}</strong>
             <em>{length}</em>
           </div>
 
           <ul className="list-disc list-inside">
-            <li> <strong>CGPA:</strong> {CGPA}</li>
+            <li className="mb-3"> <strong>CGPA:</strong> {CGPA}</li>
             <li> <strong>Relevant Courses:</strong> {courses}</li>
           </ul>
         </section>

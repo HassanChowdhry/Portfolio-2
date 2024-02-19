@@ -7,10 +7,21 @@ const Projects = forwardRef(({ id, className }, ref) => (
     <hr />
     <h1 className="section-title">Projects</h1>
 
-    {projects.map(({ title, src, description, stack, id2 }) => (
-      <Project className={className} title={title} src={src} description={description} stack={stack} key={id2} />
+    {projects.map(({ title, src, description, stack, url, id2 }) => (
+      <Project
+        className={className}
+        title={title}
+        src={src}
+        description={description}
+        stack={stack}
+        url={url}
+        id={id2}
+        key={id2}
+      />
     ))}
+
   </div>
+
 ));
 
 export default Projects;
