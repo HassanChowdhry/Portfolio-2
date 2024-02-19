@@ -36,12 +36,13 @@ body {
   flex-direction: column;
   align-items: center;
   animation-name: zoom;
-  animation-duration: 0.6s;
+  animation-duration: 0.5s;
 }
 
 .modal-website {
-  width: 75vw;
-  height: 75vh;
+  transition: opacity 0.3s ease-in-out;
+  width: 80vw;
+  height: 80vh;
 }
 
 .modal-close {
@@ -50,7 +51,8 @@ body {
   font-weight: bold;
   transition: 0.3s;
   text-align: right;
-  width: 75vw;
+  width: 80vw;
+  cursor: pointer;
 }
 
 .modal-close:hover,
